@@ -48,6 +48,8 @@ public class RecordStore {
         System.out.println("Enter artist or title to search for. Works for partial artists/titles.");
         String searchString = scanner.next();
 
+        scanner.close();
+
         searchForAlbum(allInventory, searchString);
 
     }
